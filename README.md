@@ -54,7 +54,7 @@ We use a **Deterministic Prompting** strategy. The System Prompt acts as a decis
 ### 1. Clone & Install Dependencies
 ```bash
 # Clone repository
-git clone <repo-url>
+git clone https://github.com/OussamaLafdil/Yoobic_ML_Test.git
 
 # Install requirements
 pip install streamlit pandas openpyxl python-dotenv google-genai
@@ -72,7 +72,7 @@ Ensure `data.xlsx` is present in the root directory with the following columns:
 
 ### 4. Run the Application
 ```bash
-streamlit run app_2.py
+streamlit run app.py
 ```
 
 ---
